@@ -26,14 +26,19 @@ Java같은 경우 BufferedReader를 통해 버퍼에서 데이터를 직접 읽�
 </div>
 
 # 4. 개발 환경
-* Java : Java SE 8
-* C : GCC
-* Arduino : Arudino IDE 1.6.12
+* Java : Java SE 8 & Eclipse
+* C : GCC & Vim
+* Arduino 
+  - Software : Arudino IDE 1.6.12
+  - Model : Arduino UNO R3
+  - Bluetooth : HC-06
+  - CO-Sensor : MQ-7
 * Raspberry Pi 
-  - model : Pi 2 model
+  - Model : Pi 2 Model B
+  - OS : Raspbian 4.4
+  - Bluetooth : CSR 4.0 동글
 
-
-# 4. 실행 방법 (Window 전용)
+# 5. 실행 방법 (Window 전용)
 1. SmokeSet.exe 을 실행합니다. -> ServerSet.bat 과 ClientSet.bat이 생성됩니다.
 
 2. ServerStartSet.exe 을 실행합니다. -> ServerStart.bat이 생성됩니다.
@@ -48,7 +53,7 @@ Java같은 경우 BufferedReader를 통해 버퍼에서 데이터를 직접 읽�
 
 7. ClientStart.bat을 실행합니다.  //클라이언트 실행
 
-# 5. 테스트 방법
+# 6. 테스트 방법
 1. 서버 실행 후 클라이언트를 실행합니다.
 
 2. 서버같은 경우 포트번호는 디폴트 9000으로 셋팅되어 있습니다.
