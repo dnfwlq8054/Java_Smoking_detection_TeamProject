@@ -20,3 +20,33 @@
 <div>
   <img src="https://user-images.githubusercontent.com/15880397/98201609-63bd9100-1f73-11eb-90d7-83fdaffe4bf2.PNG" width="70%"></img>
 </div>
+
+# 4. 실행 방법
+1. SmokeSet.exe 을 실행합니다. -> ServerSet.bat 과 ClientSet.bat이 생성됩니다.
+
+2. ServerStartSet.exe 을 실행합니다. -> ServerStart.bat이 생성됩니다.
+
+3. ClientSet.bat을 실행합니다.
+
+4. ServerSet.bat을 실행합니다.
+
+5. MYSQL_BATCH.bat을 실행합니다.
+
+6. ServerStart.bat을 실행합니다.  //서버 실행
+
+7. ClientStart.bat을 실행합니다.  //클라이언트 실행
+
+# 5. 테스트 방법
+1. 서버 실행 후 클라이언트를 실행합니다.
+
+2. 서버같은 경우 포트번호는 디폴트 9000으로 셋팅되어 있습니다.
+
+3. 클라이언트가 서버에 접속한 후 모니터링 할 '동'을 선택해 주세요.
+
+4. 예를들어 2동을 선택했다면 서버 콘솔창에 다음과 같이 입력해주면 됩니다.
+
+연결 끊김 : 201-302-0
+
+흡연 감지 안됨 : 201-302-1
+
+흡연 감지 됨 : 201-302-2
