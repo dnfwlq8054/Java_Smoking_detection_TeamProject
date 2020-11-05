@@ -13,6 +13,6 @@
 
 # 2. 구상도
 <div>
-  <img src="https://user-images.githubusercontent.com/15880397/98201403-eabe3980-1f72-11eb-9b0a-e9c6b9e67de9.PNG" width="100%"></img>
+  <img src="https://user-images.githubusercontent.com/15880397/98201403-eabe3980-1f72-11eb-9b0a-e9c6b9e67de9.PNG" width="90%"></img>
 </div>
 
