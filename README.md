@@ -30,7 +30,7 @@ Java같은 경우 BufferedReader를 통해 버퍼에서 데이터를 직접 읽�
 * C : GCC
 * Arduino : Arudino IDE 1.6.12
 * Raspberry Pi 
-- model : Pi 2 model
+  - model : Pi 2 model
 
 
 # 4. 실행 방법 (Window 전용)
