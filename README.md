@@ -16,3 +16,7 @@
   <img src="https://user-images.githubusercontent.com/15880397/98201403-eabe3980-1f72-11eb-9b0a-e9c6b9e67de9.PNG" width="70%"></img>
 </div>
 
+# 3. 아두이노 제품 스케치
+<div>
+  <img src="https://user-images.githubusercontent.com/15880397/98201609-63bd9100-1f73-11eb-90d7-83fdaffe4bf2.PNG" width="70%"></img>
+</div>
