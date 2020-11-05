@@ -11,6 +11,10 @@
 
 각 아파트의 경비실이 클라이언트가 되며, 클라이언트들은 서버에 접속해 실시간으로 흡연감지 여부를 체크하게 된다.
 
+C와 Java간 통신은 Ascii <-> Unicode 통신이므로 Byte통신을 했습니다.
+
+Java같은 경우 BufferedReader를 통해 버퍼에서 데이터를 직접 읽어와 형변환을 통해 Serialize했습니다.
+
 # 2. 구상도
 <div>
   <img src="https://user-images.githubusercontent.com/15880397/98201403-eabe3980-1f72-11eb-9b0a-e9c6b9e67de9.PNG" width="70%"></img>
@@ -21,7 +25,15 @@
   <img src="https://user-images.githubusercontent.com/15880397/98201609-63bd9100-1f73-11eb-90d7-83fdaffe4bf2.PNG" width="70%"></img>
 </div>
 
-# 4. 실행 방법
+# 4. 개발 환경
+* Java : Java SE 8
+* C : GCC
+* Arduino : Arudino IDE 1.6.12
+* Raspberry Pi 
+- model : Pi 2 model
+
+
+# 4. 실행 방법 (Window 전용)
 1. SmokeSet.exe 을 실행합니다. -> ServerSet.bat 과 ClientSet.bat이 생성됩니다.
 
 2. ServerStartSet.exe 을 실행합니다. -> ServerStart.bat이 생성됩니다.
